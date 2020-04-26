@@ -28,7 +28,7 @@ clear = lambda: os.system('clear') #on Linux System
 while menu == True:
     try:
         clear()
-        print("This scripts performes the following actions on ec2 instances")
+        print("This script performes the following actions on ec2 instances")
         print("""
     1. start
     2. stop
