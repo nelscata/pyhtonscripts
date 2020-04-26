@@ -13,8 +13,8 @@ import os
 # -> enter the keys
 # 3- Have some EC2 instances to play around
 # 4- Python3 and boto3 installed
-#Author: Nelson Scatarelli
-#https://github.com/nelscata
+# Author: Nelson Scatarelli
+# https://github.com/nelscata
 
 
 #General variables
