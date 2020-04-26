@@ -11,21 +11,20 @@ import os
 # -> policy for EC2 with list, start, stop, terminate
 # 2- Run aws configure --profile ec2
 # -> enter the keys
-# 3- To have some EC2 instances to play around
+# 3- Have some EC2 instances to play around
 # 4- Python3 and boto3 installed
 
 
 #General variables
 aws_mag_con=boto3.session.Session(profile_name="ec2")
 ec2_con_re=aws_mag_con.resource(service_name="ec2")
-
 ec2_con_cli=aws_mag_con.client(service_name="ec2")
+menu = True
+msg = ""
 
 #Functions
 clear = lambda: os.system('clear') #on Linux System
 
-menu = True
-msg = ""
 while menu == True:
     try:
         clear()
